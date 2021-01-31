@@ -75,7 +75,7 @@ const App = () => {
     setPlayable(true);
     setCorrectLetters([]);
     setwrongLetters([]);
-    setSelectedWord(data[Math.floor(Math.random() * data.length)].name);
+    setSelectedWord(data[Math.floor(Math.random() * data.length)]?.name);
   };
   return (
     <div>

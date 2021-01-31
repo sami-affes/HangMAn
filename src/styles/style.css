@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial,Helvetica,sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,11 +39,6 @@ body {
   color: white;
   font: italic small-caps bold 50px/20px Georgia, serif;
   margin-bottom: 50px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 #bar {
@@ -214,4 +209,5 @@ img {
   z-index: 32;
 }
 
-/* ----------- Retina Screens ----------- *//*# sourceMappingURL=style.css.map */
+/* ----------- Retina Screens ----------- */
+/*# sourceMappingURL=style.css.map */
