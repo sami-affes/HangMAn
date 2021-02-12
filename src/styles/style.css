@@ -472,4 +472,127 @@ body {
     width: 20px;
     z-index: 31;
   }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .responsive {
+    width: 100%;
+  }
+
+  .testFigure {
+    height: 62vh;
+    position: relative;
+    width: 700px;
+  }
+
+  #bar {
+    left: -1px;
+    top: 20px;
+    position: absolute;
+    width: 20%;
+    z-index: 0;
+  }
+
+  #barsmall {
+    left: 129px;
+    top: 31px;
+    position: absolute;
+    width: 9px;
+    z-index: 4;
+  }
+
+  #head {
+    left: 15.2%;
+    top: 50px;
+    position: absolute;
+    width: 8%;
+    z-index: 30;
+  }
+
+  #neck {
+    left: 18.9%;
+    top: 109px;
+    position: absolute;
+    width: 10px;
+    height: 71px;
+  }
+
+  #corpus {
+    left: 17.9%;
+    top: 122px;
+    position: absolute;
+    width: 27px;
+    z-index: 23;
+  }
+
+  #righthand {
+    left: 24.5%;
+    top: 142px;
+    position: absolute;
+    width: 11px;
+    z-index: 29;
+  }
+
+  #lefthand {
+    left: 13.8%;
+    top: 142px;
+    position: absolute;
+    width: 12px;
+    height: 32px;
+  }
+
+  #rightfoot {
+    left: 15%;
+    top: 195px;
+    position: absolute;
+    width: 20px;
+    z-index: 26;
+  }
+
+  #leftfoot {
+    left: 22%;
+    top: 190px;
+    position: absolute;
+    width: 20px;
+    z-index: 26;
+  }
+
+  #rightleg {
+    left: 20%;
+    top: 157px;
+    position: absolute;
+    width: 20px;
+    height: 183px;
+    z-index: 28;
+  }
+
+  #rightarm {
+    left: 20.7%;
+    top: 123px;
+    position: absolute;
+    width: 30px;
+    height: 126px;
+    z-index: 30;
+  }
+
+  #leftarm {
+    left: 14.7%;
+    top: 123px;
+    position: absolute;
+    width: 30px;
+    height: 124px;
+    z-index: 30;
+  }
+
+  #leftleg {
+    left: 117px;
+    top: 162px;
+    position: absolute;
+    width: 20px;
+    z-index: 31;
+  }
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
 }/*# sourceMappingURL=style.css.map */
