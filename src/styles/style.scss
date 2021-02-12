@@ -26,16 +26,8 @@ body {
    overflow: hidden;
 
 }
-img {
-   width:100%;
-}
-// body {
-//    margin: 0;
-//    padding: 0;
-//    font-family: "Oswald", sans-serif;
-//    color: #eef9ff;
-//  }
-@media   (min-width:1281px ) {
+
+@media   (min-width:1440px ) {
 
 .header {
    color: white;
@@ -175,11 +167,12 @@ img{
 }
 
 #rightarm {
-   left: 26%;
-   top: 134px;
-   position: absolute;
-   width: 60px;
-   z-index: 29;
+   left: 25.7%;
+    top: 134px;
+    position: absolute;
+    width: 71px;
+    height: 126px;
+    z-index: 30;
 }
 
 #leftarm {
@@ -209,7 +202,7 @@ img{
 
 
  }
- @media (min-width: 1025px) and (max-width: 1280px) {
+ @media (min-width: 1025px) and (max-width: 1439px) {
   
  /* 
    ##Device = Tablets, Ipads (portrait)
@@ -236,7 +229,7 @@ img{
    .testFigure{
       height:62vh;
       position:relative;
-      max-width: 480px;
+      width: 400px;
    }
    #bar {
       left: 0;
@@ -278,19 +271,19 @@ img{
    }
    
    #righthand {
-      left: 36.5%;
-      top: 117px;
-      position: absolute;
-      width: 12px;
-      z-index: 29;
+      left: 35.5%;
+    top: 117px;
+    position: absolute;
+    width: 12px;
+    z-index: 29;
    }
    
    #lefthand {
-      left: 17.8%;
-      top: 116px;
-      position: absolute;
-      width: 12px;
-      height: 32px;
+      left: 18.8%;
+    top: 118px;
+    position: absolute;
+    width: 12px;
+    height: 32px;
    }
    
    #rightfoot {
@@ -320,20 +313,20 @@ img{
    
    #rightarm {
       left: 29.7%;
-      top: 98px;
-      position: absolute;
-      width: 30px;
-      height: 126px;
-      z-index: 30;
+    top: 97px;
+    position: absolute;
+    width: 30px;
+    height: 126px;
+    z-index: 30;
    }
    
    #leftarm {
-      left: 18.7%;
-      top: 98px;
-      position: absolute;
-      width: 30px;
-      height: 126px;
-      z-index: 30;
+      left: 19.7%;
+    top: 98px;
+    position: absolute;
+    width: 30px;
+    height: 126px;
+    z-index: 30;
    }
    
    #leftleg {
@@ -341,7 +334,6 @@ img{
       top: 132px;
       position: absolute;
       width: 18px;
-      /* height: 182px; */
       z-index: 31;
    }
    
@@ -352,6 +344,124 @@ img{
  */
    
  }
+
+ @media (min-width: 481px) and (max-width: 767px) {
+  
+   .responsive {
+      width:100%;
+   }
+   .testFigure{
+      height:62vh;
+      position:relative;
+      max-width: 767px;
+   }
+   #bar {
+      left: -6px;
+      top: 20px;
+      position: absolute;
+      width: 30%;
+      z-index: 0;
+   }
+   
+   #barsmall {
+      left: 129px;
+    top: 31px;
+    position: absolute;
+    width: 9px;
+    z-index: 4;
+   }
+   #head {
+      left: 22.2%;
+    top: 50px;
+    position: absolute;
+    width: 11%;
+    z-index: 30;
+   }
+   #neck {
+      left: 26.9%;
+    top: 103px;
+    position: absolute;
+    width: 10px;
+    height: 71px;
+   }
+   
+   #corpus {
+      left: 24.9%;
+      top: 116px;
+      position: absolute;
+      width: 26px;
+      z-index: 23;
+   }
+   
+   #righthand {
+      left: 33.5%;
+    top: 137px;
+    position: absolute;
+    width: 12px;
+    z-index: 29;
+   }
+   
+   #lefthand {
+      left: 19.8%;
+    top: 135px;
+    position: absolute;
+    width: 12px;
+    height: 32px;
+   }
+   
+   #rightfoot {
+      left: 21%;
+    top: 182px;
+    position: absolute;
+    width: 20px;
+    z-index: 26;
+   }
+   
+   #leftfoot {
+      left: 30%;
+      top: 182px;
+      position: absolute;
+      width: 20px;
+      z-index: 26;
+}
+  
+   
+   #rightleg {
+      left: 28%;
+    top: 153px;
+    position: absolute;
+    width: 18px;
+    height: 183px;
+    z-index: 28;
+   }
+   
+   #rightarm {
+      left: 28.7%;
+    top: 118px;
+    position: absolute;
+    width: 30px;
+    height: 126px;
+    z-index: 30;
+   }
+   
+   #leftarm {
+      left: 20.7%;
+    top: 116px;
+    position: absolute;
+    width: 30px;
+    height: 124px;
+    z-index: 30;
+   }
+   
+   #leftleg {
+      left: 112px;
+    top: 152px;
+    position: absolute;
+    width: 18px;
+    z-index: 31;
+   }
+
+}
  
 
 
