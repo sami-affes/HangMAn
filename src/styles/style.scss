@@ -27,7 +27,7 @@ body {
 
 }
 
-@media   (min-width:1440px ) {
+@media   (min-width:1281px ) {
 
 .header {
    color: white;
@@ -126,11 +126,11 @@ img{
 }
 
 #righthand {
-      left: 32%;
-      top: 179px;
-      position: absolute;
-      width: 21px;
-      z-index: 24;
+   left: 33%;
+   top: 187px;
+   position: absolute;
+   width: 21px;
+   z-index: 24;
 }
 
 #lefthand {
@@ -204,6 +204,57 @@ img{
  }
  
  @media (min-width: 1025px) and (max-width: 1280px) {
+   .header {
+      color: white;
+      font: italic small-caps bold 120px/80px Georgia, serif;
+   }
+   
+   .find {
+      color: white;
+      font: italic small-caps bold 50px/20px Georgia, serif;
+      margin-bottom: 50px;
+   }
+   
+   
+   
+   
+   .word {
+      display: flex;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   
+   .letter {
+      border-bottom: 3px solid $colorBorderBottomLetter;
+      display: inline-flex;
+      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      height: 50px;
+      width: 20px;
+      color: red;
+   }
+   
+   .wrong-letters-container p {
+      margin: 0 0 5px;
+      color: red;
+   }
+   
+   .popup-container {
+      background-color: $backgroundColor;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      /* display: flex; */
+      display: none;
+      align-items: center;
+      justify-content: center;
+   }
     
    .responsive {
       width:100%;
@@ -327,6 +378,57 @@ img{
  }
  
  @media (min-width: 320px) and (max-width: 480px) {
+   .header {
+      color: white;
+      font: italic small-caps bold 120px/80px Georgia, serif;
+   }
+   
+   .find {
+      color: white;
+      font: italic small-caps bold 50px/20px Georgia, serif;
+      margin-bottom: 50px;
+   }
+   
+   
+   
+   
+   .word {
+      display: flex;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   
+   .letter {
+      border-bottom: 3px solid $colorBorderBottomLetter;
+      display: inline-flex;
+      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      height: 50px;
+      width: 20px;
+      color: red;
+   }
+   
+   .wrong-letters-container p {
+      margin: 0 0 5px;
+      color: red;
+   }
+   
+   .popup-container {
+      background-color: $backgroundColor;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      /* display: flex; */
+      display: none;
+      align-items: center;
+      justify-content: center;
+   }
    .responsive {
       width:100%;
    }
@@ -450,6 +552,57 @@ img{
  }
 
  @media (min-width: 481px) and (max-width: 767px) {
+   .header {
+      color: white;
+      font: italic small-caps bold 120px/80px Georgia, serif;
+   }
+   
+   .find {
+      color: white;
+      font: italic small-caps bold 50px/20px Georgia, serif;
+      margin-bottom: 50px;
+   }
+   
+   
+   
+   
+   .word {
+      display: flex;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   
+   .letter {
+      border-bottom: 3px solid $colorBorderBottomLetter;
+      display: inline-flex;
+      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      height: 50px;
+      width: 20px;
+      color: red;
+   }
+   
+   .wrong-letters-container p {
+      margin: 0 0 5px;
+      color: red;
+   }
+   
+   .popup-container {
+      background-color: $backgroundColor;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      /* display: flex; */
+      display: none;
+      align-items: center;
+      justify-content: center;
+   }
   
    .responsive {
       width:100%;
@@ -568,6 +721,57 @@ img{
 }
  
 @media (min-width: 768px) and (max-width: 1024px) {
+   .header {
+      color: white;
+      font: italic small-caps bold 120px/80px Georgia, serif;
+   }
+   
+   .find {
+      color: white;
+      font: italic small-caps bold 50px/20px Georgia, serif;
+      margin-bottom: 50px;
+   }
+   
+   
+   
+   
+   .word {
+      display: flex;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+   
+   .letter {
+      border-bottom: 3px solid $colorBorderBottomLetter;
+      display: inline-flex;
+      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3px;
+      height: 50px;
+      width: 20px;
+      color: red;
+   }
+   
+   .wrong-letters-container p {
+      margin: 0 0 5px;
+      color: red;
+   }
+   
+   .popup-container {
+      background-color: $backgroundColor;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      /* display: flex; */
+      display: none;
+      align-items: center;
+      justify-content: center;
+   }
 
    .responsive {
       width:100%;

@@ -27,7 +27,7 @@ body {
   overflow: hidden;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1281px) {
   .header {
     color: white;
     font: italic small-caps bold 120px/80px Georgia, serif;
@@ -138,8 +138,8 @@ body {
   }
 
   #righthand {
-    left: 32%;
-    top: 179px;
+    left: 33%;
+    top: 187px;
     position: absolute;
     width: 21px;
     z-index: 24;
@@ -212,6 +212,68 @@ body {
   }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .header {
+    color: white;
+    font: italic small-caps bold 120px/80px Georgia, serif;
+  }
+
+  .find {
+    color: white;
+    font: italic small-caps bold 50px/20px Georgia, serif;
+    margin-bottom: 50px;
+  }
+
+  .word {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  .letter {
+    border-bottom: 3px solid #2980b9;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 3px;
+    height: 50px;
+    width: 20px;
+    color: red;
+  }
+
+  .wrong-letters-container p {
+    margin: 0 0 5px;
+    color: red;
+  }
+
+  .popup-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .responsive {
     width: 100%;
   }
@@ -335,6 +397,68 @@ body {
   */
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    color: white;
+    font: italic small-caps bold 120px/80px Georgia, serif;
+  }
+
+  .find {
+    color: white;
+    font: italic small-caps bold 50px/20px Georgia, serif;
+    margin-bottom: 50px;
+  }
+
+  .word {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  .letter {
+    border-bottom: 3px solid #2980b9;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 3px;
+    height: 50px;
+    width: 20px;
+    color: red;
+  }
+
+  .wrong-letters-container p {
+    margin: 0 0 5px;
+    color: red;
+  }
+
+  .popup-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .responsive {
     width: 100%;
   }
@@ -459,6 +583,68 @@ body {
   */
 }
 @media (min-width: 481px) and (max-width: 767px) {
+  .header {
+    color: white;
+    font: italic small-caps bold 120px/80px Georgia, serif;
+  }
+
+  .find {
+    color: white;
+    font: italic small-caps bold 50px/20px Georgia, serif;
+    margin-bottom: 50px;
+  }
+
+  .word {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  .letter {
+    border-bottom: 3px solid #2980b9;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 3px;
+    height: 50px;
+    width: 20px;
+    color: red;
+  }
+
+  .wrong-letters-container p {
+    margin: 0 0 5px;
+    color: red;
+  }
+
+  .popup-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .responsive {
     width: 100%;
   }
@@ -577,6 +763,68 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    color: white;
+    font: italic small-caps bold 120px/80px Georgia, serif;
+  }
+
+  .find {
+    color: white;
+    font: italic small-caps bold 50px/20px Georgia, serif;
+    margin-bottom: 50px;
+  }
+
+  .word {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  .letter {
+    border-bottom: 3px solid #2980b9;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 3px;
+    height: 50px;
+    width: 20px;
+    color: red;
+  }
+
+  .wrong-letters-container p {
+    margin: 0 0 5px;
+    color: red;
+  }
+
+  .popup-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
   .responsive {
     width: 100%;
   }
