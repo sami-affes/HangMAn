@@ -80,8 +80,8 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Figure wrongLetters={wrongLetters} />
       <WrongLetters wrongLetters={wrongLetters} />
+      <Figure wrongLetters={wrongLetters} />
       <Word selectedWord={selectedWord} correctLetters={correctLetters} />
       <Notification showNotification={showNotification} />
       <Popup

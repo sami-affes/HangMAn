@@ -3,74 +3,63 @@
 
 
 * {
-    margin : 0;
-    padding : 0;
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-    outline: none;
-  }
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style-type: none;
+   box-sizing: border-box;
+   outline: none;
+}
 
-  body
-    {
+body {
    //  background-color : grey;
-    color: black;
-    background-image: url("https://i.pinimg.com/originals/1b/55/e4/1b55e4bdb4fc6051382e370bf26d5a59.jpg?fbclid=IwAR3bs2O_chPzCFMTNAqifMIdx9v0QhREyqPtVsxC6mj5Mdw_jl2jUw-6_UY");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Arial,Helvetica,sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 80vh;
-    margin: 0;
-    overflow: hidden;
-    
-  }
+   color: black;
+   background-image: url("https://i.pinimg.com/originals/1b/55/e4/1b55e4bdb4fc6051382e370bf26d5a59.jpg?fbclid=IwAR3bs2O_chPzCFMTNAqifMIdx9v0QhREyqPtVsxC6mj5Mdw_jl2jUw-6_UY");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+   height: 80vh;
+   margin: 0;
+   overflow: hidden;
+
+}
+img {
+   width:100%;
+}
+// body {
+//    margin: 0;
+//    padding: 0;
+//    font-family: "Oswald", sans-serif;
+//    color: #eef9ff;
+//  }
+@media   (min-width:1281px ) {
+
+.header {
+   color: white;
+   font: italic small-caps bold 120px/80px Georgia, serif;
+}
+
+.find {
+   color: white;
+   font: italic small-caps bold 50px/20px Georgia, serif;
+   margin-bottom: 50px;
+}
 
 
-  .header {
-     color : white;
-     font: italic small-caps bold 120px/80px Georgia, serif ;
-  }
-  .find {
-     color : white;
-     font: italic small-caps bold 50px/20px Georgia, serif;
-     margin-bottom: 50px;
-  }
-
- 
 
 
-  #bar 
-{ 
-   left: 2px; 
-   top: 240px; 
-   position: absolute; 
-   width: 460px;
-   height: 32px;
-   z-index:3;
-} 
-
-#barsmall 
-{ 
-   left: 400px; 
-   top: 240px; 
-   position: absolute; 
-   width: 32px;
-   height: 79px;
-   z-index:4;
-} 
- .word {
+.word {
    display: flex;
    position: absolute;
    bottom: 10px;
    left: 50%;
    transform: translateX(-50%);
- }
+}
 
- .letter {
+.letter {
    border-bottom: 3px solid $colorBorderBottomLetter;
    display: inline-flex;
    font-size: 30px;
@@ -79,150 +68,291 @@
    margin: 0 3px;
    height: 50px;
    width: 20px;
-   color : red;
- }
+   color: red;
+}
 
- .wrong-letters-container p {
+.wrong-letters-container p {
    margin: 0 0 5px;
-   color : red;
- }
+   color: red;
+}
 
- .popup-container {
-    background-color: $backgroundColor;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* display: flex; */
-    display: none;
-    align-items: center;
-    justify-content: center;
-  }
- 
- #neck 
- { 
-    left: 394px; 
-    top: 492px; 
-    position: absolute; 
-    width: 49px;
-    height: 71px;
-    z-index:22;
- } 
- 
- #corpus 
- { 
-    left: 367px; 
-    top: 538px; 
-    position: absolute; 
-    width: 105px;
-    height: 165px;
-    z-index:23;
- } 
- 
- #righthand 
- { 
-    left: 532px; 
-    top: 638px; 
-    position: absolute; 
-    width: 33px;
-    height: 32px;
-    z-index:24;
- } 
- 
- #lefthand 
- { 
-    left: 278px; 
-    top: 636px; 
-    position: absolute; 
-    width: 32px;
-    height: 32px;
-    z-index:25;
- } 
- 
- #rightfoot 
- { 
-    left: 457px; 
-    top: 841px; 
-    position: absolute; 
-    width: 87px;
-    height: 40px;
-    z-index:26;
- } 
- 
- #leftfoot 
- { 
-    left: 291px; 
-    top: 841px; 
-    position: absolute; 
-    width: 87px;
-    height: 40px;
-    z-index:27;
- } 
- 
- #rightleg 
- { 
-    left: 421px; 
-    top: 683px; 
-    position: absolute; 
-    width: 86px;
-    height: 183px;
-    z-index:28;
- } 
- 
- #rightarm 
- { 
-    left: 430px; 
-    top: 540px; 
-    position: absolute; 
-    width: 131px;
-    height: 127px;
-    z-index:29;
- } 
- 
- #leftarm 
- { 
-    left: 281px; 
-    top: 537px; 
-    position: absolute; 
-    width: 130px;
+.popup-container {
+   background-color: $backgroundColor;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   /* display: flex; */
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+img{
+   width:100%;
+}
+
+#bar {
+   left: 0;
+   top: 0;
+   position: absolute;
+   width: 25%;
+   height: 20px;
+   z-index: 0;
+}
+
+#barsmall {
+   left: 22.9%;
+   top: 10px;
+   position: absolute;
+   width: 18px;
+   height: 79px;
+   z-index: 4;
+}
+#head {
+   left: 20.2%;
+   top: 50px;
+   position: absolute;
+   width: 8%;
+   z-index: 30;
+}
+#neck {
+   left: 22.9%;
+   top: 109px;
+   position: absolute;
+   width: 22px;
+   height: 71px;
+   z-index: -1;
+}
+
+#corpus {
+   left: 20.8%;
+   top: 132px;
+   position: absolute;
+   width: 60px;
+   z-index: 23;
+}
+
+#righthand {
+      left: 32%;
+      top: 179px;
+      position: absolute;
+      width: 21px;
+      z-index: 24;
+}
+
+#lefthand {
+   left: 15%;
+   top: 177px;
+   position: absolute;
+   width: 21px;
+   height: 32px;
+}
+
+#rightfoot {
+   left: 17%;
+   top: 294px;
+   position: absolute;
+   width: 40px;
+   z-index: 26;
+}
+
+#leftfoot {
+   left: 27%;
+   top: 294px;
+   position: absolute;
+   width: 40px;
+   z-index: 26;
+}
+
+#rightleg {
+   left: 25%;
+   top: 216px;
+   position: absolute;
+   width: 41px;
+   height: 183px;
+   z-index: 28;
+}
+
+#rightarm {
+   left: 26%;
+   top: 134px;
+   position: absolute;
+   width: 60px;
+   z-index: 29;
+}
+
+#leftarm {
+   left: 15.7%;
+    top: 132px;
+    position: absolute;
+    width: 60px;
     height: 126px;
-    z-index:30;
- } 
- 
- #leftleg 
- { 
-    left: 332px; 
-    top: 684px; 
-    position: absolute; 
-    width: 86px;
-    height: 182px;
-    z-index:31;
- } 
- 
- #head 
- { 
-    left: 322px; 
-    top: 310px; 
-    position: absolute; 
-    width: 192px;
-    height: 212px;
-    z-index:32;
- } 
-
- @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+    z-index: 30;
 }
 
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+#leftleg {
+   left: 18.8%;
+   top: 217px;
+   position: absolute;
+   width: 41px;
+   height: 182px;
+   z-index: 31;
 }
+
+
+.testFigure{
+   height:62vh;
+   position:relative;
+   width:800px;
+}
+
+
+ }
+ @media (min-width: 1025px) and (max-width: 1280px) {
+  
+ /* 
+   ##Device = Tablets, Ipads (portrait)
+   ##Screen = B/w 768px to 1024px
+ */
+ .testFigure{
+   height:62vh;
+   position:relative;
+   width:600px;
+}
+#bar {
+   left: 0;
+   top: 0;
+   position: absolute;
+   width: 25%;
+   height: 20px;
+   z-index: 0;
+}
+ }
+ @media (min-width: 320px) and (max-width: 480px) {
+   .responsive {
+      width:100%;
+   }
+   .testFigure{
+      height:62vh;
+      position:relative;
+      max-width: 480px;
+   }
+   #bar {
+      left: 0;
+      top: 20px;
+      position: absolute;
+      width: 30%;
+      z-index: 0;
+   }
+   
+   #barsmall {
+      left: 27.4%;
+      top: 31px;
+      position: absolute;
+      width: 9px;
+      z-index: 4;
+   }
+   #head {
+      left: 23.2%;
+      top: 50px;
+      position: absolute;
+      width: 11%;
+      z-index: 30;
+   }
+   #neck {
+      left: 26.9%;
+      top: 81px;
+      position: absolute;
+      width: 12px;
+      height: 71px;
+      z-index: -1;
+   }
+   
+   #corpus {
+      left: 24.9%;
+      top: 97px;
+      position: absolute;
+      width: 25px;
+      z-index: 23;
+   }
+   
+   #righthand {
+      left: 36.5%;
+      top: 117px;
+      position: absolute;
+      width: 12px;
+      z-index: 29;
+   }
+   
+   #lefthand {
+      left: 17.8%;
+      top: 116px;
+      position: absolute;
+      width: 12px;
+      height: 32px;
+   }
+   
+   #rightfoot {
+      left: 19%;
+      top: 160px;
+      position: absolute;
+      width: 20px;
+      z-index: 26;
+   }
+   
+   #leftfoot {
+      left: 32%;
+      top: 160px;
+      position: absolute;
+      width: 20px;
+      z-index: 26;
+   }
+   
+   #rightleg {
+      left: 29%;
+      top: 131px;
+      position: absolute;
+      width: 18px;
+      height: 183px;
+      z-index: 28;
+   }
+   
+   #rightarm {
+      left: 29.7%;
+      top: 98px;
+      position: absolute;
+      width: 30px;
+      height: 126px;
+      z-index: 30;
+   }
+   
+   #leftarm {
+      left: 18.7%;
+      top: 98px;
+      position: absolute;
+      width: 30px;
+      height: 126px;
+      z-index: 30;
+   }
+   
+   #leftleg {
+      left: 22.8%;
+      top: 132px;
+      position: absolute;
+      width: 18px;
+      /* height: 182px; */
+      z-index: 31;
+   }
+   
+  
+   /* 
+   ##Device = Most of the Smartphones Mobiles (Portrait)
+   ##Screen = B/w 320px to 479px
+ */
+   
+ }
+ 
 
 
  

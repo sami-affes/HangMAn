@@ -16,20 +16,20 @@ import leftfoot from '../images/leftfoot.png'
 const Figure = ({wrongLetters}) => {
     const errors = wrongLetters.length
     return (
-        <div>
-            <div id="bar"><img src={bar} alt = "bar"/></div>
-            <div id="barsmall"><img src={barsmall} alt = "barsmall"/></div>
-            <div id="head" >{errors > 0 && <img src={head} alt = "head"/>}</div>
-            <div id="neck" >{errors > 1 && <img src={neck} alt = "neck"/>}</div>
-            <div id="corpus" >{errors > 2 && <img src={corpus} alt = "corpus"/>}</div>
-            <div id="rightarm" >{errors > 3 && <img src={rightarm} alt = "rightarm"/>}</div>
-            <div id="leftarm" >{errors > 4 && <img src={leftarm} alt = "leftarm"/>}</div>
-            <div id="righthand" >{errors > 5 && <img src={righthand} alt = "righthand"/>}</div>
-            <div id="lefthand" >{errors > 6 && <img src={lefthand} alt = "lefthand"/>}</div>
-            <div id="rightleg" >{errors > 7 && <img src={rightleg} alt = "rightleg"/>}</div>
-            <div id="leftleg" >{errors > 8 && <img src={leftleg} alt = "leftleg"/>}</div>
-            <div id="rightfoot" >{errors > 9 && <img src={rightfoot} alt = "rightfoot"/>}</div>
-            <div id="leftfoot" >{errors > 10 && <img src={leftfoot} alt = "leftfoot"/>}</div>
+        <div className="testFigure">
+            <div id="bar"><img src={bar} alt = "bar" className="responsive"/></div>
+            <div id="barsmall"><img src={barsmall} alt = "barsmall" className="responsive"/></div>
+            <div id="head" >{errors > 0 && <img src={head} alt = "head" className="responsive"/>}</div>
+            <div id="neck" >{errors > 1 && <img src={neck} alt = "neck" className="responsive"/>}</div>
+            <div id="corpus" >{errors > 2 && <img src={corpus} alt = "corpus" className="responsive"/>}</div>
+            <div id="rightarm" >{errors > 3 && <img src={rightarm} alt = "rightarm" className="responsive"/>}</div>
+            <div id="leftarm" >{errors > 4 && <img src={leftarm} alt = "leftarm" className="responsive"/>}</div>
+            <div id="righthand" >{errors > 5 && <img src={righthand} alt = "righthand" className="responsive"/>}</div>
+            <div id="lefthand" >{errors > 6 && <img src={lefthand} alt = "lefthand" className="responsive"/>}</div>
+            <div id="rightleg" >{errors > 7 && <img src={rightleg} alt = "rightleg" className="responsive"/>}</div>
+            <div id="leftleg" >{errors > 8 && <img src={leftleg} alt = "leftleg" className="responsive"/>}</div>
+            <div id="rightfoot" >{errors > 9 && <img src={rightfoot} alt = "rightfoot" className="responsive"/>}</div>
+            <div id="leftfoot" >{errors > 10 && <img src={leftfoot} alt = "leftfoot" className="responsive"/>}</div>
         </div>
     )
 }
