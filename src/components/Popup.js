@@ -16,8 +16,8 @@ const Popup = ({correctLetters,wrongLetters,setPlayable,selectedWord,playAgain})
     }
     useEffect(() => setPlayable(playable))
     return (
-        <div className="popup-container" style = {finalMessage !== '' ? {display : 'flex'} : {}}>
-            <div className="popup">
+        <div className="Game_over" style = {finalMessage !== '' ? {display : 'flex'} : {display : 'none'}}>
+            <div>
                 <h2>{finalMessage}</h2>
                 <h3>{finalMessageRevealWord}</h3>
                 <button onClick={playAgain}>Play Again</button>
