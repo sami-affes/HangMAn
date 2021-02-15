@@ -12,7 +12,7 @@
 body {
   background-color: grey;
   color: black;
-  background-image: url("https://www.instant-gaming.com/images/products/1292/screenshot/1292-1.jpg");
+  background-image: $background-image;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -26,14 +26,14 @@ body {
 
 @media (min-width: 1281px) {
   .Game_over {
-   font-size: 20px;
-    font-family: "AllerDisplay";
+    font-size: 20px;
+    font-family: $font-family;
     color: white;
     text-transform: uppercase;
     line-height: 1.446;
     text-align: center;
     position: absolute;
-    left: 321.938px;
+    left: 415.938px;
     top: 442.984px;
     z-index: 68;
   }
@@ -76,7 +76,7 @@ body {
 
   .wrong-letters-container {
     font-size: 40px;
-    font-family: "AllerDisplay";
+    font-family: $font-family;
     color: #222222;
     line-height: 0.446;
     text-transform: uppercase;
@@ -89,7 +89,7 @@ body {
 
   .missed-word {
     font-size: 32px;
-    font-family: "AllerDisplay";
+    font-family: $font-family;
     color: #222222;
     text-transform: uppercase;
     line-height: 1.282;
@@ -223,7 +223,7 @@ body {
 @media (min-width: 1025px) and (max-width: 1280px) {
   .Game_over {
     font-size: 20px;
-    font-family: "AllerDisplay";
+    font-family: $font-family;
     color: white;
     text-transform: uppercase;
     line-height: 1.446;
@@ -272,7 +272,7 @@ body {
 
   .wrong-letters-container {
     font-size: 40px;
-    font-family: "AllerDisplay";
+    font-family: $font-family;
     color: #222222;
     line-height: 0.446;
     text-transform: uppercase;
@@ -285,7 +285,7 @@ body {
 
   .missed-word {
     font-size: 32px;
-    font-family: "AllerDisplay";
+    font-family: $font-family;
     color: #222222;
     text-transform: uppercase;
     line-height: 1.282;
@@ -416,68 +416,68 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-   .Game_over {
-      font-size: 20px;
-      font-family: "AllerDisplay";
-      color: white;
-      text-transform: uppercase;
-      line-height: 1.446;
-      text-align: center;
-      position: absolute;
-      left: 194.938px;
-      top: 442.984px;
-      z-index: 68;
-    }
-  
-    .header {
-      color: white;
-      font: italic small-caps bold 120px/80px Georgia, serif;
-    }
-  
-    .find {
-      color: white;
-      font: italic small-caps bold 40px/30px Georgia, serif;
+  .Game_over {
+    font-size: 20px;
+    font-family: $font-family;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.446;
+    text-align: center;
+    position: absolute;
+    left: 194.938px;
+    top: 442.984px;
+    z-index: 68;
   }
-  
-    .word {
-      display: flex;
-      justify-content: center;
-      bottom: -168px;
-      position: absolute;
-      flex-direction: row;
-    }
-  
-    .letter {
-      border-radius: 10px;
-      color: white;
-      background-color: rgb(80, 82, 90);
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-size: 30px;
-      opacity: 0.98;
-      left: 1509px;
-      margin: 0 3px;
-      top: 937px;
-      width: 50px;
-      height: 50px;
-      z-index: 38;
-    }
-  
-    .wrong-letters-container {
-      text-transform: uppercase;
+
+  .header {
+    color: white;
+    font: italic small-caps bold 120px/80px Georgia, serif;
+  }
+
+  .find {
+    color: white;
+    font: italic small-caps bold 40px/30px Georgia, serif;
+  }
+
+  .word {
+    display: flex;
+    justify-content: center;
+    bottom: -168px;
+    position: absolute;
+    flex-direction: row;
+  }
+
+  .letter {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(80, 82, 90);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.98;
+    left: 1509px;
+    margin: 0 3px;
+    top: 937px;
+    width: 50px;
+    height: 50px;
+    z-index: 38;
+  }
+
+  .wrong-letters-container {
+    text-transform: uppercase;
     text-align: left;
     position: relative;
     left: 283px;
     top: 98.355px;
     padding-left: 50px;
     z-index: 46;
-    }
-  
-    .missed-word {
-      font-size: 32px;
-    font-family: "AllerDisplay";
+  }
+
+  .missed-word {
+    font-size: 32px;
+    font-family: $font-family;
     color: #222222;
     text-transform: uppercase;
     line-height: 1.282;
@@ -486,8 +486,8 @@ body {
     left: 330px;
     top: 231.988px;
     z-index: 47;
-    }
-  
+  }
+
   .responsive {
     width: 100%;
   }
@@ -609,68 +609,68 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-   .Game_over {
-      font-size: 20px;
-      font-family: "AllerDisplay";
-      color: white;
-      text-transform: uppercase;
-      line-height: 1.446;
-      text-align: center;
-      position: absolute;
-      left: 194.938px;
-      top: 442.984px;
-      z-index: 68;
-    }
-  
-    .header {
-      color: white;
-      font: italic small-caps bold 120px/80px Georgia, serif;
-    }
-  
-    .find {
-      color: white;
+  .Game_over {
+    font-size: 20px;
+    font-family: $font-family;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.446;
+    text-align: center;
+    position: absolute;
+    left: 194.938px;
+    top: 442.984px;
+    z-index: 68;
+  }
+
+  .header {
+    color: white;
+    font: italic small-caps bold 120px/80px Georgia, serif;
+  }
+
+  .find {
+    color: white;
     font: italic small-caps bold 35px Georgia, serif;
     margin-bottom: 50px;
-    }
-  
-    .word {
-      display: flex;
-      justify-content: center;
-      bottom: 10px;
-      flex-direction: row;
-    }
-  
-    .letter {
-      border-radius: 10px;
-      color: white;
-      background-color: rgb(80, 82, 90);
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-size: 30px;
-      opacity: 0.98;
-      left: 1509px;
-      margin: 0 3px;
-      top: 937px;
-      width: 50px;
-      height: 50px;
-      z-index: 38;
-    }
-  
-    .wrong-letters-container {
-      text-transform: uppercase;
+  }
+
+  .word {
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    flex-direction: row;
+  }
+
+  .letter {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(80, 82, 90);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.98;
+    left: 1509px;
+    margin: 0 3px;
+    top: 937px;
+    width: 50px;
+    height: 50px;
+    z-index: 38;
+  }
+
+  .wrong-letters-container {
+    text-transform: uppercase;
     text-align: left;
     position: relative;
     left: 283px;
     top: 98.355px;
     padding-left: 50px;
     z-index: 46;
-    }
-  
-    .missed-word {
-      font-size: 32px;
-    font-family: "AllerDisplay";
+  }
+
+  .missed-word {
+    font-size: 32px;
+    font-family: $font-family;
     color: #222222;
     text-transform: uppercase;
     line-height: 1.282;
@@ -679,7 +679,7 @@ body {
     left: 330px;
     top: 231.988px;
     z-index: 47;
-    }
+  }
 
   .responsive {
     width: 100%;
